@@ -1,5 +1,5 @@
 # 🐧 Linux Kernel File Systems & System Audit Suite
-> **A Comprehensive Capstone Project for Open Source Software (OSS)**
+> **A Professional Capstone Project for Open Source Software (OSS) | VITyarthi**
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
@@ -9,33 +9,33 @@
 ---
 
 ## 📖 Project Overview
-This project is an in-depth exploration of the **Linux Kernel File Systems**. It combines theoretical research on OS philosophy with practical automation using Bash scripting. 
+This project is an in-depth technical audit of **Linux Kernel File Systems**. It combines academic research on OS architecture with practical automation through shell scripting.
 
-### 📑 What's Inside the Report?
-My 15-page technical audit covers:
-* **Origin & Philosophy:** Historical evolution of the Linux Kernel and the transition from `ext2` to `ext4`.
-* **Architecture Deep-Dive:** How Linux manages data blocks, inodes, and journaling.
-* **Performance Benchmarking:** Comparative analysis of **ext4**, **XFS**, **Btrfs**, **ReiserFS**, and **JFS** under various workloads (Copying, Zipping, Searching).
-* **Licensing:** Discussion on the **GPL (General Public License)** and its impact on proprietary kernel modules.
+### 📑 Technical Report Summary (LOS_Report.pdf)
+The core research focuses on the evolution and performance of Linux storage:
+* **Architecture:** Detailed analysis of `ext4`, `XFS`, `Btrfs`, `ReiserFS`, and `JFS`.
+* **Benchmarking:** Real-world testing on a Core i7 CentOS environment to measure zipping, searching, and copying speeds.
+* **Philosophy:** Discussion on the **GPL License**, software freedom, and the collaborative nature of the Linux Kernel.
 
 ---
 
-## 🛠️ Interactive Script Suite
-I have developed 5 specialized Bash scripts to demonstrate core Linux administration skills.
+## 🛠️ Automated Shell Script Suite
+This repository contains 5 separate scripts designed to perform system-level audits.
 
-| Script | Function | Key Command |
+| Script Name | Functionality | Core Commands |
 | :--- | :--- | :--- |
-| `script1.sh` | **System Identity** - Displays Kernel version & Uptime. | `uname`, `uptime` |
-| `script2.sh` | **Package Inspector** - Verifies installed FOSS tools. | `command -v` |
-| `script3.sh` | **Permission Auditor** - Scans file ownership & sizes. | `ls -ld`, `awk` |
-| `script4.sh` | **Log Analyzer** - Filters system logs for Errors. | `grep`, `while read` |
-| `script5.sh` | **Manifesto Gen** - Generates an interactive OSS file. | `cat << EOF` |
+| **script1.sh** | **System Identity** - Fetches Kernel, User, and Uptime info. | `uname`, `whoami` |
+| **script2.sh** | **Package Inspector** - Checks if FOSS tools are installed. | `command -v`, `which` |
+| **script3.sh** | **Permission Auditor** - Scans file sizes and ownership. | `du -sh`, `awk` |
+| **script4.sh** | **Log Error Hunter** - Scans `/var/log/syslog` for errors. | `grep`, `while read` |
+| **script5.sh** | **Manifesto Gen** - Creates a signed OSS commitment file. | `cat << EOF`, `read` |
 
 ---
 
-## 🚀 How to Setup & Run
+## 🚀 Installation & Usage Guide
 
-### 1. Clone the repo
+### Step 1: Clone the Repository
+Open your terminal and run:
 ```bash
-git clone [https://github.com/YOUR_USERNAME/your-repo-name.git](https://github.com/YOUR_USERNAME/your-repo-name.git)
+git clone [https://github.com/YOUR_GITHUB_USERNAME/your-repo-name.git](https://github.com/YOUR_GITHUB_USERNAME/your-repo-name.git)
 cd your-repo-name
